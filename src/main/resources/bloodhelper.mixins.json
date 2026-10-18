@@ -1,0 +1,13 @@
+{
+  "required": true,
+  "package": "ru.bloodhelper.client.mixin",
+  "compatibilityLevel": "JAVA_21",
+  "client": [
+    "ItemCooldownsAccessor",
+    "CooldownInstanceAccessor",
+    "FontProviderAccessor"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}

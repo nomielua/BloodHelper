@@ -1,0 +1,97 @@
+{
+  "repository": "https://github.com/dest4590/Expensive_4.0",
+  "commit": "3cf31b7ea09d28312e9743b2f5dd71498ba682a5",
+  "source_directory": "src/main/resources/assets/minecraft/expensive/textures",
+  "files": [
+    {
+      "file": "background.png",
+      "source_sha256": "29686445e3ff7ebc548e48b36281845dfd25bf6b68e9ad8119bd7b946f0ced94",
+      "output_sha256": "7a63e38c2ab50d3ec459cffd5833b1dec81b15f03cf801bc2dee553a34a1a88b",
+      "size": [
+        800,
+        500
+      ],
+      "change": "recolor only"
+    },
+    {
+      "file": "tab.png",
+      "source_sha256": "0ea1e00241c72090625eaa7cfa2b0f0429ca0d4521b4f1ee44cd914081f8e0d2",
+      "output_sha256": "407f2c644bb13ca4e8225cc6a0864b15050fd12256575c08db2923dbcc8d79f5",
+      "size": [
+        146,
+        33
+      ],
+      "change": "recolor only"
+    },
+    {
+      "file": "check.png",
+      "source_sha256": "b5d23f794c6a26e51ffa336c2ba293b1569a246b9f9b98cd175e4eae474736ef",
+      "output_sha256": "b5d23f794c6a26e51ffa336c2ba293b1569a246b9f9b98cd175e4eae474736ef",
+      "size": [
+        8,
+        6
+      ],
+      "change": "byte-identical"
+    },
+    {
+      "file": "ico.png",
+      "source_sha256": "6a71f92b7a23b7e02a7c4ad93024902da04a96ffc5f4b88b50055350e2b52292",
+      "output_sha256": "83ae65f169eb9c1be55253972f97196f3aadaca42dc070b0bfe44af719784f4b",
+      "size": [
+        18,
+        18
+      ],
+      "change": "white RGB tint mask, original alpha and geometry unchanged"
+    },
+    {
+      "file": "render.png",
+      "source_sha256": "46284412b16a5ba63cd9ce7c4b10290f395d58af0d3505180db7155f559dc08c",
+      "output_sha256": "f9ac96c8464558ba87a2f16b337c24d369ae8b270ff22da9eca75f49aede7353",
+      "size": [
+        18,
+        18
+      ],
+      "change": "white RGB tint mask, original alpha and geometry unchanged"
+    },
+    {
+      "file": "palette.png",
+      "source_sha256": "d8c1495eebd67be7617807429f4d586b9ef7aa91045747de6433d430ddf9731f",
+      "output_sha256": "5aa4ec16a8d2fdfed80268c834b51a960e901a88c348d7c8aa0928267e04bc69",
+      "size": [
+        14,
+        14
+      ],
+      "change": "white RGB tint mask, original alpha and geometry unchanged"
+    },
+    {
+      "file": "settings.png",
+      "source_sha256": "1c27d4113b4be8b1a3defff442f1fab24b87ea4576c286eea7016ad9c3d370cb",
+      "output_sha256": "9c46a8dde509d250e819f0bdd0cdc7b0b576a38f1ce5dacd0420161bc71b44f0",
+      "size": [
+        14,
+        14
+      ],
+      "change": "white RGB tint mask, original alpha and geometry unchanged"
+    },
+    {
+      "file": "search.png",
+      "source_sha256": "602ce34fc59deb153f3bbd31877ae19cb1320d6b96abf7479c5f368843acacf3",
+      "output_sha256": "602ce34fc59deb153f3bbd31877ae19cb1320d6b96abf7479c5f368843acacf3",
+      "size": [
+        11,
+        11
+      ],
+      "change": "byte-identical"
+    },
+    {
+      "file": "steve.png",
+      "source_sha256": "40976682889157a01f02939ec02450b230b200331d3524454a5cd7b4b3dd6f09",
+      "output_sha256": "40976682889157a01f02939ec02450b230b200331d3524454a5cd7b4b3dd6f09",
+      "size": [
+        50,
+        50
+      ],
+      "change": "byte-identical"
+    }
+  ]
+}

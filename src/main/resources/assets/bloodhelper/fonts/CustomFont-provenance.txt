@@ -1,0 +1,24 @@
+CustomFont font provenance (unmodified binary copies)
+
+Repository: https://github.com/dest4590/Expensive_4.0
+Commit: 3cf31b7ea09d28312e9743b2f5dd71498ba682a5
+Source directory: src/main/resources/assets/minecraft/expensive/fonts/
+
+Donor: Expensive GUI-only reference; no donor code is executed or included.
+Loader: java.awt.Font.createFont(Font.TRUETYPE_FONT, resourceStream).
+Regular API face: SF Pro Display Medium; medium API face: SF Pro Display Semibold.
+Both OTFs verified with OpenJDK 25 in headless AWT: 2324 source glyphs.
+Tested Cyrillic and symbols: Съешь ещё этих мягких французских булок; ←→↑↓…×✓−•.
+
+The source fonts retain their original embedded copyright/license metadata.
+This provenance record does not grant or change font licensing rights.
+
+File: assets/bloodhelper/fonts/sfpromedium.otf
+Source: /tmp/bloodhelper-reference/expensive4-gui-only/src/main/resources/assets/minecraft/expensive/fonts/sfpromedium.otf
+Bytes: 335512
+SHA-256: cbfd17919856efcedabdd73781dad2984326928ae7c9635bef6227b1a7d71d21
+
+File: assets/bloodhelper/fonts/sfprosemibold.otf
+Source: /tmp/bloodhelper-reference/expensive4-gui-only/src/main/resources/assets/minecraft/expensive/fonts/sfprosemibold.otf
+Bytes: 335964
+SHA-256: 53a55ec7e0a90c0e1980b9d95e3cb93851b4e473b575693813a1b150066661ff

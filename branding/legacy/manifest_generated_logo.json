@@ -1,0 +1,85 @@
+{
+  "logo": {
+    "width": 1253,
+    "height": 158,
+    "texture": "bloodhelper:textures/logo.png",
+    "composition": [
+      "BLOOD",
+      "bloodstone-pack heart",
+      "HELPER"
+    ],
+    "heartBounds": {
+      "x": 503,
+      "y": 10,
+      "width": 128,
+      "height": 128
+    },
+    "helper": {
+      "method": "reconstructed from native Bloodstone B/L/O/E fronts",
+      "sourceFaces": [
+        "B",
+        "L",
+        "O",
+        "E"
+      ],
+      "frontHeight": 106,
+      "outlineRadius": 7,
+      "extrusionDepth": 32
+    }
+  },
+  "icon": {
+    "width": 256,
+    "height": 256,
+    "texture": "bloodhelper:textures/icon.png"
+  },
+  "sourceCommit": "782ea4fc458a7f3d4c9738629d2d2ad3ff59676f",
+  "sourceRepository": "https://github.com/Trard/bloodstone3",
+  "files": {
+    "bloodstone-hd-1.png": {
+      "sha256": "df3d714154105d8fae1b3e6de76c34b33f714caabf07025d6190c2cca9221b25",
+      "bytes": 14485
+    },
+    "bloodstone-hd-2.png": {
+      "sha256": "09e4bb5218097be63c75814c8814d2fe751b1fee81b671ef4e41e988b123d9cb",
+      "bytes": 11314
+    },
+    "bloodstone-hd-3.png": {
+      "sha256": "fb498eb925d704e5fabe50c678d19a6e4f2466d51d1851a89a01e76a343217ca",
+      "bytes": 11911
+    },
+    "bloodstone-hd-4.png": {
+      "sha256": "6145a0a784bd3e7f305db8210c227ec6a61620c31d37bc7f30de9cd3ab913e74",
+      "bytes": 16410
+    },
+    "bloodstone-hd.png": {
+      "sha256": "32237cc250347cc4c3a3cb81234835ee09df9ee2d57320a495973bb6ec074c59",
+      "bytes": 51382
+    },
+    "bloodstone-logo.png": {
+      "sha256": "9f3f37e5c1ef783d753a8973e3e4f3e1c70b278d4813c61df8a90addcbc64c3f",
+      "bytes": 9851
+    },
+    "bloodstone-pack.png": {
+      "sha256": "2468ee4b60c3ad439e977c5f59f6c39526e6f6a512cd6a6f956aec6a0c2e496c",
+      "bytes": 3511
+    },
+    "user-reference.png": {
+      "sha256": "e466c73c3733648a89cd8b1d49aee2696e9604d7220818a7a212649dac0297a1",
+      "bytes": 11517
+    }
+  },
+  "outputs": {
+    "bloodhelper-logo.png": {
+      "sha256": "8dd040a68f8ac45ab654d33e83ba90c9b792e0486f22752ebb08c7794ec783d2",
+      "bytes": 62236
+    },
+    "bloodhelper-preview.png": {
+      "sha256": "31bfffa31bcd38ba38f034eff2192599860c2a3a07b9fbccc9846b038068ecc1",
+      "bytes": 59816
+    },
+    "bloodhelper-preview-375.png": {
+      "sha256": "e24f20a863daf26da318f68eedb8b9b94ad092a46c705815047631a63779320f",
+      "bytes": 16579
+    }
+  }
+}

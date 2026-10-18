@@ -1,0 +1,30 @@
+BLOODHELPER 1.1.0+1.21.11 — verification evidence, 2026-10-12
+JUnit results:
+ru.bloodhelper.client.config.ConfigStoreTest: tests=8, failures=0, errors=0, skipped=0
+ru.bloodhelper.client.hud.AlertTrackerTest: tests=6, failures=0, errors=0, skipped=0
+ru.bloodhelper.client.hud.FrameHistoryTest: tests=2, failures=0, errors=0, skipped=0
+ru.bloodhelper.client.hud.HudLayoutTest: tests=2, failures=0, errors=0, skipped=0
+ru.bloodhelper.client.hud.HudWidgetsTest: tests=1, failures=0, errors=0, skipped=0
+ru.bloodhelper.client.hud.InventorySnapshotTest: tests=4, failures=0, errors=0, skipped=0
+ru.bloodhelper.client.hud.SessionStateTest: tests=7, failures=0, errors=0, skipped=0
+ru.bloodhelper.client.lyrics.LrcParserTest: tests=5, failures=0, errors=0, skipped=0
+ru.bloodhelper.client.lyrics.LyricsServiceTest: tests=4, failures=0, errors=0, skipped=0
+
+modules-1.1.0-final2.log:
+MediaBackendSelfTest: all checks passed; no media controls or Windows processes executed.
+[22:12:33] [Render thread/INFO] (Minecraft) [STDOUT]: [BLOODHELPER_SMOKE] live 1.21.11 cooldown accessor/group/expiry checks passed
+[22:12:36] [Render thread/INFO] (Minecraft) [STDOUT]: [BLOODHELPER_SMOKE] actual OTF SF Pro Medium/Semibold, Cyrillic and custom metrics passed
+[22:13:05] [Render thread/INFO] (Minecraft) [STDOUT]: [BLOODHELPER_SMOKE] actual OTF SF Pro Medium/Semibold, Cyrillic and custom metrics passed
+[22:14:33] [Render thread/INFO] (Minecraft) [STDOUT]: [BLOODHELPER_SMOKE] isolated-world inventory, armor, and FFA listener checks passed
+BUILD FAILED in 7m 17s
+
+modules-1.1.0-world-final.log:
+MediaBackendSelfTest: all checks passed; no media controls or Windows processes executed.
+[22:21:03] [Render thread/INFO] (Minecraft) [STDOUT]: [BLOODHELPER_SMOKE] isolated-world inventory, armor, and FFA listener checks passed
+[22:21:11] [Server thread/INFO] (Minecraft) ThreadedAnvilChunkStorage: All dimensions are saved
+[22:21:11] [Render thread/INFO] (Minecraft) [STDOUT]: [BLOODHELPER_SMOKE] requested GUI/HUD/session/world smoke checks passed
+BUILD SUCCESSFUL in 3m 35s
+
+The full GUI/world run passed functional checks but was manually stopped (143) during the old test helper teardown.
+The separate final world run verified the corrected teardown and exited 0.
+The helper is excluded from the installed JAR.

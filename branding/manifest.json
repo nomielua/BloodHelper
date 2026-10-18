@@ -1,0 +1,94 @@
+{
+  "logo": {
+    "width": 2088,
+    "height": 336,
+    "texture": "bloodhelper:textures/logo.png",
+    "composition": [
+      "BLOOD",
+      "HELPER"
+    ],
+    "source": "source/user-logo-2026-10-12.png",
+    "sourceType": "exact user-supplied image",
+    "sourceDimensions": [
+      2172,
+      724
+    ],
+    "sourceBoundsIncludingPadding": [
+      42,
+      175,
+      2130,
+      511
+    ],
+    "processing": "crop and connected exterior backdrop alpha only",
+    "foregroundRgbChanged": false
+  },
+  "icon": {
+    "width": 256,
+    "height": 256,
+    "texture": "bloodhelper:textures/icon.png",
+    "source": "source/bloodstone-pack.png",
+    "unchanged": true,
+    "sourceCommit": "782ea4fc458a7f3d4c9738629d2d2ad3ff59676f",
+    "sourceRepository": "https://github.com/Trard/bloodstone3"
+  },
+  "previewDimensions": [
+    2120,
+    368
+  ],
+  "preview375Dimensions": [
+    407,
+    92
+  ],
+  "files": {
+    "bloodstone-hd-1.png": {
+      "sha256": "df3d714154105d8fae1b3e6de76c34b33f714caabf07025d6190c2cca9221b25",
+      "bytes": 14485
+    },
+    "bloodstone-hd-2.png": {
+      "sha256": "09e4bb5218097be63c75814c8814d2fe751b1fee81b671ef4e41e988b123d9cb",
+      "bytes": 11314
+    },
+    "bloodstone-hd-3.png": {
+      "sha256": "fb498eb925d704e5fabe50c678d19a6e4f2466d51d1851a89a01e76a343217ca",
+      "bytes": 11911
+    },
+    "bloodstone-hd-4.png": {
+      "sha256": "6145a0a784bd3e7f305db8210c227ec6a61620c31d37bc7f30de9cd3ab913e74",
+      "bytes": 16410
+    },
+    "bloodstone-hd.png": {
+      "sha256": "32237cc250347cc4c3a3cb81234835ee09df9ee2d57320a495973bb6ec074c59",
+      "bytes": 51382
+    },
+    "bloodstone-logo.png": {
+      "sha256": "9f3f37e5c1ef783d753a8973e3e4f3e1c70b278d4813c61df8a90addcbc64c3f",
+      "bytes": 9851
+    },
+    "bloodstone-pack.png": {
+      "sha256": "2468ee4b60c3ad439e977c5f59f6c39526e6f6a512cd6a6f956aec6a0c2e496c",
+      "bytes": 3511
+    },
+    "user-logo-2026-10-12.png": {
+      "sha256": "53dd12abad44f571a2c9574ce644f55f0aac4238a6b205a90797709f146f89e7",
+      "bytes": 1175397
+    },
+    "user-reference.png": {
+      "sha256": "e466c73c3733648a89cd8b1d49aee2696e9604d7220818a7a212649dac0297a1",
+      "bytes": 11517
+    }
+  },
+  "outputs": {
+    "bloodhelper-logo.png": {
+      "sha256": "dcce760bc2fad58c5e7bf60270d3bb86f25e5278e388171554f0c591dfc0cadf",
+      "bytes": 566212
+    },
+    "bloodhelper-preview.png": {
+      "sha256": "aefaf6cd73f958fecb0fb30ba6f85c0767adcfb350075e8f505ca01effc11ee1",
+      "bytes": 477381
+    },
+    "bloodhelper-preview-375.png": {
+      "sha256": "d4c385b5039444ecce0a5fc5d1c4e4afd889b34cb1ecac691333a01f0c956aed",
+      "bytes": 28996
+    }
+  }
+}

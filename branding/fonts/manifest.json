@@ -1,0 +1,18 @@
+{
+  "source": "https://raw.githubusercontent.com/google/fonts/main/ofl/inter/Inter%5Bopsz%2Cwght%5D.ttf",
+  "upstream": "https://github.com/rsms/inter",
+  "upstream_version": "4.1",
+  "download_sha256": "29160a80ff49ddcab2c97711247e08b1fab27a484a329ce8b813d820dc559031",
+  "license": "OFL-1.1",
+  "local_family": "BloodHelper UI",
+  "instances": {
+    "ui": {
+      "opsz": 14,
+      "wght": 550
+    },
+    "ui_medium": {
+      "opsz": 14,
+      "wght": 650
+    }
+  }
+}

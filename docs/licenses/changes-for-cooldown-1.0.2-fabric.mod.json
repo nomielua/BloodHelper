@@ -1,0 +1,40 @@
+{
+	"schemaVersion": 1,
+	"id": "changes-for-cooldown",
+	"version": "1.0.2",
+	"name": "Changes for Cooldown",
+	"description": "Отображает кулдауны для предметов на вашем экране.",
+	"authors": [
+		"Yz1kk"
+	],
+	"contact": {
+
+	},
+	"license": "MIT",
+	"icon": "assets/changes-for-cooldown/icon.png",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"yzi.cooldown.ChangesForCooldown"
+		],
+		"client": [
+			"yzi.cooldown.client.ChangesForCooldownClient"
+		],
+      "modmenu": [
+        "yzi.cooldown.client.config.ModMenuIntegration"
+      ]
+	},
+	"mixins": [
+		"changes-for-cooldown.mixins.json",
+		{
+			"config": "changes-for-cooldown.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.6",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}

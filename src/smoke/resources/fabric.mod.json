@@ -1,0 +1,9 @@
+{
+  "schemaVersion": 1,
+  "id": "bloodhelper_smoke",
+  "version": "1.0.0",
+  "name": "BloodHelper isolated development check",
+  "environment": "client",
+  "entrypoints": { "client": ["ru.bloodhelper.smoke.SmokeClient"] },
+  "depends": { "bloodhelper": "*" }
+}

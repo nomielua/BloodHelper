@@ -1,0 +1,60 @@
+plugins {
+    id "net.fabricmc.fabric-loom-remap" version "1.17.19"
+}
+version = "1.1.0+1.21.11"
+group = "ru.bloodhelper"
+base { archivesName = "BloodHelper" }
+repositories { mavenCentral() }
+dependencies {
+    minecraft "com.mojang:minecraft:1.21.11"
+    mappings loom.officialMojangMappings()
+    modImplementation "net.fabricmc:fabric-loader:0.19.5"
+    modImplementation "net.fabricmc.fabric-api:fabric-api:0.141.6+1.21.11"
+    testImplementation platform("org.junit:junit-bom:5.11.4")
+    testImplementation "org.junit.jupiter:junit-jupiter"
+    testRuntimeOnly "org.junit.platform:junit-platform-launcher"
+}
+processResources {
+    inputs.property "version", project.version
+    filesMatching("fabric.mod.json") { expand "version": project.version }
+}
+tasks.withType(JavaCompile).configureEach {
+    options.release = 21
+    options.encoding = "UTF-8"
+}
+java { withSourcesJar(); sourceCompatibility = JavaVersion.VERSION_21; targetCompatibility = JavaVersion.VERSION_21 }
+jar {
+    from('THIRD_PARTY_NOTICES.md') { into 'META-INF' }
+    from('docs/licenses') { into 'META-INF/licenses' }
+}
+test { useJUnitPlatform() }
+tasks.register('mediaProtocolTest', JavaExec) {
+    dependsOn testClasses
+    classpath = sourceSets.test.runtimeClasspath
+    mainClass = 'ru.bloodhelper.client.music.MediaBackendSelfTest'
+}
+check.dependsOn mediaProtocolTest
+
+// An isolated, opt-in development client for screenshots; never packaged in the mod.
+if (project.hasProperty('smoke')) {
+    sourceSets {
+        smoke {
+            compileClasspath += sourceSets.main.compileClasspath + sourceSets.main.output
+            runtimeClasspath += sourceSets.main.runtimeClasspath + sourceSets.main.output
+        }
+    }
+    loom {
+        mods {
+            bloodhelper { sourceSet sourceSets.main }
+            bloodhelper_smoke { sourceSet sourceSets.smoke }
+        }
+        runs {
+            client {
+                source sourceSets.smoke
+                runDir 'run-smoke'
+                programArgs '--width', '1280', '--height', '800'
+            }
+        }
+    }
+    tasks.named('runClient') { dependsOn tasks.named('smokeClasses') }
+}
